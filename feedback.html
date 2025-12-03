@@ -22,8 +22,8 @@
             <nav class="navbar">
                 <div class="logo">Tim</div>
                 <ul class="nav-links">
-                    <li><a href="Projects.html">Projects</a></li>
                     <li><a href="index.html">HomePage</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
                     <li><a href="Request.html">More</a></li>
                 </ul>
             </nav>
@@ -32,7 +32,8 @@
     <section id="main" class="Main">
         <div class="feedback-card">
             <h2>Feedback</h2>
-            <form>
+            <form action="https://formspree.io/f/meoykdkp" method="POST">
+                <input type="hidden" name="_next" value="feedbacksuccess.html">
                 <label>Your Email</label>
                 <input type="email" name="email" required>
 
